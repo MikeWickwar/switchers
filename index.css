@@ -8,6 +8,13 @@ body{
   height: 100vh;
   width: 100vw;
 }
+/*body {
+    background-image: radial-gradient(center bottom, ellipse cover, #ffeda3, #ffc800);
+    background-image: -o-radial-gradient(center bottom, ellipse cover, #ffeda3, #ffc800);
+    background-image: -ms-radial-gradient(center bottom, ellipse cover, #ffeda3, #ffc800);
+    background-image: -moz-radial-gradient(center bottom, ellipse cover, #ffeda3, #ffc800);
+    background-image: -webkit-radial-gradient(center bottom, ellipse cover, #ffeda3, #ffc800);
+}*/
 
 #switch{
   height: 30px;
@@ -22,9 +29,12 @@ body{
 #handle{
   height: 25px;
   width: 25px;
-  background-color: green;
+  /*background-color: green;*/
   border: 5px solid silver;
   border-radius: 30px;
+  -webkit-transition: background-color .5s linear;
+  -o-transition: background-color .5s linear;
+  transition: background-color .5s linear;
 }
 /*#switchContainer{
   height: 30px;
