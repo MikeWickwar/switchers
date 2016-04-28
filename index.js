@@ -11,7 +11,7 @@ $("#handle").click(function() {
       switchposition = 3;
       $("#switchLabel").empty();
       $("#switchLabel").append("<h3>ON</h3>");
-      $("#handle").css("background-image", "-webkit-radial-gradient(center, circle cover, #00C429, #009A0C)");
+      $("#handle").css("background-color", "#27ae60");
       $(this).animate({
             'marginLeft' : "+=80px" //moves to on
             })
@@ -20,7 +20,7 @@ $("#handle").click(function() {
       switchposition = 3;
       $("#switchLabel").empty();
       $("#switchLabel").append("<h3>ON</h3>");
-      $("#handle").css("background-image", "-webkit-radial-gradient(center, circle cover, #00C429, #009A0C)");
+      $("#handle").css("background-color", "#27ae60");
       $(this).animate({
             'marginLeft' : "+=40px" //moves to on
 
@@ -30,7 +30,7 @@ $("#handle").click(function() {
       switchposition = 1;
       $("#switchLabel").empty();
       $("#switchLabel").append("<h3>OFF</h3>");
-      $("#handle").css("background-image", "-webkit-radial-gradient(center, circle cover, #FF0C00, #D32219)");
+      $("#handle").css("background", "#fcfff4");
       $(this).animate({
             'marginLeft' : "-=80px" //moves to off
             })
