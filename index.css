@@ -32,9 +32,9 @@ body{
   /*background-color: green;*/
   border: 5px solid silver;
   border-radius: 30px;
-  -webkit-transition: background-color .5s linear;
-  -o-transition: background-color .5s linear;
-  transition: background-color .5s linear;
+  -webkit-transition: background 0.5s linear;
+  -o-transition: background 0.5s linear;
+  transition: background 0.5s linear;
 
   background: #fcfff4;
   background: -webkit-linear-gradient(#fcfff4 0%, #dfe5d7 40%, #b3bead 100%);

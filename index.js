@@ -11,7 +11,9 @@ $("#handle").click(function() {
       switchposition = 3;
       $("#switchLabel").empty();
       $("#switchLabel").append("<h3>ON</h3>");
-      $("#handle").css("background-color", "#27ae60");
+      $("#handle").css("background", "#fcfff4")
+                  .css("background", "-webkit-linear-gradient(#83c783 0%, #52b152 40%, #008a00 100%)")
+                  .css("box-shadow", "inset 0px 1px 1px #b4ddb4, 0px 1px 3px #b4ddb4");
       $(this).animate({
             'marginLeft' : "+=80px" //moves to on
             })
@@ -30,7 +32,7 @@ $("#handle").click(function() {
       switchposition = 1;
       $("#switchLabel").empty();
       $("#switchLabel").append("<h3>OFF</h3>");
-      $("#handle").css("background", "#fcfff4");
+      $("#handle").css("background", "#c0c0c0");
       $(this).animate({
             'marginLeft' : "-=80px" //moves to off
             })
